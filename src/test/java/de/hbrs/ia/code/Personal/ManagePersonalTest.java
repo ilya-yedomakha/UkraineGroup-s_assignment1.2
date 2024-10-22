@@ -102,6 +102,7 @@ class ManagePersonalTest {
         salesMan = managePersonal.readSalesMan(90133);
         assertEquals(0, salesMan.getPerformanceRecords().size());
     }
+    // test
 
     @Test
     void deleteSalesMan() {
